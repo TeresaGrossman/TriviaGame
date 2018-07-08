@@ -1,0 +1,14 @@
+body{
+    font-size: 18px;
+    font-family: arial;
+    background-image: url(../images/spacebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    line-height: 1.2em;
+    color: orangered;
+}
+#start{
+    position: absolute;
+    bottom: 0;
+}
