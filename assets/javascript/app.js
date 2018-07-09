@@ -1,15 +1,15 @@
-$(document).ready(function(){ 
+$(document).ready(function() { 
 //create a function that creates the start button and initial screen
 
     //Global variables
     var correct = 0;
     var incorrect = 0;
-    var noAnswer = 0;
+    var unanswered = 0;
     var sec = 30;
     var queuePos = 0;
     var x;
 
-    //create an array with questiona, possible answers and corrAnswer
+    //create an array with questions, possible answers and corrAnswer
     var questions = [
         q1 = {
             q: "Which star is at the center of our Solar System?",
@@ -106,7 +106,7 @@ $(document).ready(function(){
 
 	}
     //write a function to display the answers jQuery
-	/*function displayAnswer() {
+	function displayAnswer() {
 		
 		if (sec === -1) {
 			$("#question").html("You ran out of time!");
@@ -114,7 +114,7 @@ $(document).ready(function(){
 			$("#a2").html(questions[queuePos].correctAnswer);
 			$("#a3").empty();
 			$("#a4").empty();
-			noAnswer++;
+			unanswered++;
 		}
 		else if ($(this).text() === questions[queuePos].correctAnswer) {
 			$("#question").html("Correct!");
@@ -178,7 +178,7 @@ $(document).ready(function(){
 	$("#a3").on("click", displayAnswer);
 	$("#a4").on("click", displayAnswer);
 });
-    */
+    
    
     
     
