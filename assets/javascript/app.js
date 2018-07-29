@@ -60,7 +60,7 @@ $(document).ready(function() {
             correctAnswer: "333,000"
         },
         q7 = {
-            q = "When will Halley's Comet become visible again from Earth?",
+            q: "When will Halley's Comet become visible again from Earth?",
             a1: "2055",
             a2: "2058",
             a3: "2061",
@@ -68,7 +68,7 @@ $(document).ready(function() {
             correctAnswer: "2061"
         },
         q8 = {
-            q = "When was the Solar System formed?",
+            q: "When was the Solar System formed?",
             a1: "4.0 billion years ago",
             a2: "4.6 billion years ago",
             a3: "5.0 billion years ago",
@@ -76,7 +76,7 @@ $(document).ready(function() {
             correctAnswer: "4.6 billion years ago"
         },
         q9 = {
-            q = "Which planet spins backwards relative to the others?",
+            q: "Which planet spins backwards relative to the others?",
             a1: "Mercury",
             a2: "Saturn",
             a3: "Venus",
@@ -84,14 +84,14 @@ $(document).ready(function() {
             correctAnswer: "Venus"
         },
         q10 = {
-            q = "What is the largest planet in our Solar System?",
+            q: "What is the largest planet in our Solar System?",
             a1: "Mercury",
             a2: "Saturn",
             a3: "Venus",
             a4: "Jupiter",
             correctAnswer: "Jupiter"
         }
-        
+       
     ];
     //Write a function to display the questions jQuery
        
