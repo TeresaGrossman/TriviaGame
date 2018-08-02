@@ -1,3 +1,5 @@
+// @flow
+
 $(document).ready(function() { 
 //create a function that creates the start button and initial screen
 

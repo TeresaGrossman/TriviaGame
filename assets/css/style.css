@@ -5,8 +5,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
-    line-height: 1.2em;
+    /* line-height: 1.2em; */
     color: orangered;
+}
+.container{
+    background-color: rgba(0,0,0,.5);
+
 }
 
 #question, #time-left, #a1, #a2, #a3, #a4{
@@ -35,6 +39,7 @@ button {
     outline: none;
     width: 50%;
     border-radius: 8px;
+    padding: 0.6em;
 }
 
 h1{
