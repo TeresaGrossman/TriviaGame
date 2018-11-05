@@ -180,6 +180,9 @@ $(document).ready(function() {
 	$("#a3").on("click", displayAnswer);
 	$("#a4").on("click", displayAnswer);
 });
+
+
+
     
    
     

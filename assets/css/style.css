@@ -9,12 +9,12 @@ body{
     color: orangered;
 }
 .container{
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.1);
 
 }
 
 #question, #time-left, #a1, #a2, #a3, #a4{
-    color: yellow;
+    color: #005aff;
     margin: 0 25% 0 25%;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,15 +23,13 @@ body{
 }
 
 #question{
-    color: yellow;
-    border-top: solid 1px #e5e160;
-    
+    color: #005aff;
     padding-top: 2%;
 	margin-bottom: 3%;
 }
 
 button {
-    background-color: yellow;
+    background-color:#005aff;
     background-repeat:no-repeat;
     border: none;
     cursor: pointer;
